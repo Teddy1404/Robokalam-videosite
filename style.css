@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background:#00122e ;
+    position: relative;
+}
+nav{
+    position:absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    background: #182842;
+    width: 120px;
+    padding: 10px 0;
+}
+nav ul{
+    margin-top: 160px;
+
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li i{
+  
+    
+    margin: 10px auto;
+    padding: 20px;
+    cursor: pointers;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: opacity 0.5s backkground 0.5s;
+    
+   
+   
+}
+nav ul li i:hover{
+    opacity: 1;
+    background:#4d6181 ;
+}
+.row
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.col-1{
+    flex-basis: 65%;
+}
+.col-2{
+    flex-basis: 33%;
+}
+.host-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.contarols{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+.emoji{
+    height: 40px;
+    width: 40px;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition: transform 1ms;
+}
+.emoji:hover{
+    transform: translatey(-10px);
+}
+.joined{
+    background: #182842;
+    border-radius: 15px;
+    padding: 30px 40px 50px;
+    color: #fff;
+}
+.joined div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap:20px
+}
+.joined img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.invite{
+    background: #182842;
+    border-radius: 15px;
+    padding: 30px 40px 50px;
+    color: #fff;
+}
+.invite img{
+    width:50px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
